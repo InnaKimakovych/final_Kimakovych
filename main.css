@@ -1,0 +1,143 @@
+html {
+	font-family: "helvetica neue", sans-serif;
+	margin: 0px;
+	padding: 0px;	
+}
+.scrollToTop-hover {
+	margin-left: -8px;
+	margin-top: -28px;
+}
+#hover-container {
+	min-width: 100%;
+	cursor: pointer;
+	display: block;
+	position: absolute;
+  z-index: 9999;
+  background-color: #FFFFFF;
+  border-bottom: 3px solid #C0C0C0;
+}
+
+#hover {
+	font-size: 14px;
+	text-align: center;
+	color: #C0C0C0;
+}
+
+.site-title {
+	min-width: 100%;
+	text-align: center;
+	z-index: 3;
+	padding-top: 40px;
+	margin-left: -8px;
+}
+.site-title img {
+	width: 20%;
+}
+#counter {
+	right: 5px;
+	position: absolute;
+	z-index: 9999;
+	bottom: 35px;
+	color: #D3D3D3;
+	text-shadow: 2px 2px 2px #AFEEEE;
+}
+#footer-container {
+	min-width: 100%;
+	left: 0;
+	height: 30px;
+	background-color: #333333;
+	position: absolute;
+	z-index: 9999;
+	bottom: 0px;
+}
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.footer-elem {
+	color: #FFFFFF;
+	margin: 4px;
+	font-size: 14px;
+	cursor: pointer;
+	display: hidden;
+}
+
+.error-connection {
+	font-size: 14px;
+	text-align: center;
+	padding-top: 100px;
+}
+
+#list-all-items {
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+#list-elem {
+	text-align: center;
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 20%;
+}
+.pack-elem {
+	min-height: 14px;
+	vertical-align: center;
+	width: 100%;
+	white-space: pre-wrap;
+	font-family: "helvetica neue", sans-serif;
+	font-size: 12px;
+	margin: 2px;
+	color: #191970;
+	border-radius: 5px;
+	cursor: pointer;
+	border: 1px solid #D3D3D3;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+#elements-scheme {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;	
+}
+
+.conteiner-open-details {
+	top: 150px;
+	position: block;
+	height: auto;
+	width: 40%;
+	z-index: 8888;
+	text-align: center;
+	background-color: #333333;
+	color: #FFFFFF;
+	font-size: 14px;
+	cursor: default;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	border-radius: 5px;
+}
+.conteiner-open-details ul{
+	list-style-type: none;
+	margin-left: -40px;
+}
+
+.closer {
+	cursor: pointer;
+	margin: 25px;
+}
+.active {
+	color: #333333;
+}
+.error {
+	color: #DC143C;
+}	
+
+#moving-text {
+	color: #D3D3D3;
+	font-size: 12px;
+}
